@@ -1,0 +1,212 @@
+*{
+
+font-family:sans-serif ;
+margin: 0;
+padding: 0;
+}
+
+
+
+
+
+
+
+
+
+body {
+background-color: #352f5b;
+color: white;
+
+
+
+}
+
+h1 {
+
+text-align: center;
+font-size: 4rem;
+
+padding-top: 50px;
+background-image: linear-gradient(to top, #352f5b, rgb(211, 184, 184 , 0.5));
+
+}
+
+.task {
+
+
+display: flex;
+justify-content: space-between;
+padding: 20px 20px ;
+margin-top: 50px;
+margin-bottom: 30px;
+width: 70vw;
+margin-left: auto;
+margin-right: auto;
+background: rgba( 63, 12, 239, 0.55 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 0px );
+-webkit-backdrop-filter: blur( 0px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+border-bottom: 3px solid white;
+
+
+
+
+
+}
+
+
+
+.icon:hover{
+
+font-size: 26px;
+transition: 0.3s;
+cursor: pointer;
+
+}
+
+p {
+
+font-size: 22px;
+
+}
+
+.icon-star, .icon-trash {
+
+opacity: 0.4;
+font-size: 27px ;
+
+}
+
+
+
+.icon-star:hover {
+
+color: orange;
+opacity: 1;
+font-size: 29px ;
+}
+
+.icon-trash{
+
+margin-right: 10px;
+font-size: 27px ;
+
+
+}
+
+.icon-trash:hover{
+
+color: azure;
+font-size: 29px ;
+opacity: 1;
+
+}
+
+.icon-sad2{
+
+color: rgb(122, 158, 50);
+font-size: 24px;
+
+}
+
+h2{
+    font-size: 40px;
+text-align: center;
+margin-top: 100px;
+margin-bottom: 40px;
+
+
+
+}
+
+form {
+
+text-align: center;
+margin-bottom: 200px;
+
+}
+
+input{
+
+padding: 10px 20px;
+border-radius: 6px;
+width: 35vw;
+font-size: 21px;
+text-align: center;
+
+
+}
+
+button {all: unset;}
+
+.icon-upload {
+
+font-size: 40px;
+margin-left: 20px;
+
+position: relative;
+top: 10px;
+
+
+
+}
+
+.icon-upload:hover {
+
+    font-size: 43px;
+transition: 0.2s;
+color: #3c7941;
+
+
+
+}
+
+.icon-heart {
+
+    color: rgb(190, 43, 43);
+    font-size: 24px ;
+    opacity: 1;
+    transition: 0.2s;
+    cursor: pointer;
+
+}
+
+.icon-heart:hover{
+
+    font-size: 26px ;
+
+
+}
+
+.finish {
+
+text-decoration-line:line-through ;
+text-decoration-line:wavy ;
+
+}
+
+
+
+
+
+
+/* jave script */
+
+.dn {
+
+display: none;
+
+
+}
+
+.boss {
+
+    color: orange;
+    opacity: 1;
+
+}
+
+
+
